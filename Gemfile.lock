@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
+    pi_charts (1.0.0)
+    rack (2.1.1)
+    rack-protection (2.0.8.1)
+      rack
+    require_all (3.0.0)
+    ruby2_keywords (0.0.2)
+    sinatra (2.0.8.1)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.8.1)
+      tilt (~> 2.0)
+    tilt (2.0.10)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pi_charts
+  require_all
+  sinatra
+
+BUNDLED WITH
+   2.1.4
